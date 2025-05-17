@@ -1,0 +1,13 @@
+# Ignore build and temporary files
+.next/
+node_modules/
+
+# Ignore system files
+.DS_Store
+
+# Optionally ignore lock files, if you don't want them tracked (e.g., in a team setting or with yarn)
+# npm-debug.log*
+# yarn-debug.log*
+
+# If you have environment variables, you might want to ignore the .env file (but make sure to add it to your environment config)
+.env
